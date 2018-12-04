@@ -1,0 +1,87 @@
+
+ body {
+   background-color: rgb(212, 212, 212);
+ }
+ #form_cad,#form_login{
+   font-style:oblique;
+   font-family: Arial, sans-serif;
+   font-weight: 500;
+ }
+#informacao-usuario{
+ text-align: center;
+ ;
+}
+#informacao-usuario h1{
+
+ 
+   text-transform: uppercase;
+   font-size: 25px;
+   font-weight: 400;
+   /*font-style: italic;*/
+   font-family: 'Oswald', sans-serif;
+   color: #064484;
+}
+#login-iconi,#conteiner-cadastre-se-iconi{
+height: 30px;
+width: 30px;
+}
+#informacao-usuario p{
+	 font-size: 18px;
+   text-align: center;
+   font-weight: 300;
+   font-family: 'Roboto', sans-serif;
+}
+ 
+#conteiner-login,#conteiner-cadastre-se{
+
+
+height: 100%;
+color: #323232;
+   background: rgb(244, 244, 244);
+}
+#login,#cadastre-se{
+border-top: 3px solid #B30D0D;
+   background-color: #fff;
+   padding: 10px;
+
+}
+#login h3,#cadastre-se h3{
+
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 5px;
+   margin-left: 10px;
+   /*font-style: italic;*/
+   font-family: 'Oswald', sans-serif;
+}
+#entrar{
+ background: #B30D0D;
+ color: #ffffff;
+ width: 100%;
+ border-radius: 0;
+ }
+ input {
+   margin-bottom: 5px;
+ }
+
+ label.error {
+   color: #F44336;
+   font-size: 0.750em;
+   font-style: italic;
+ }
+
+ label.error::before {
+   content: "* ";
+ }
+@media (min-width: 992px) and (max-width: 1920px) {
+	#conteiner-cadastre-se{
+margin-left: 20px;
+margin-bottom: 20px;
+}
+#conteiner-login{
+margin-left: 40px;
+
+}
+}
+

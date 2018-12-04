@@ -1,0 +1,43 @@
+article{
+ background-color: rgb(212, 212, 212);
+ box-sizing: border-box;
+}
+#pulicar-titulo{
+ margin-top: 20px;
+text-align: center;
+	text-transform: uppercase;
+	
+	color: #275280;
+	font-weight: 500;
+	/*font-style: italic;*/
+	font-family: 'Oswald', sans-ser
+}
+#pagprincipal{
+  color: #323232;
+  background: rgb(244, 244, 244);
+  margin: 5px auto;
+
+}
+#informacao{
+ border-top: 3px solid  #B30D0D;
+ background-color: #fff;
+ padding: 10px;
+ border-bottom:1px solid #BDBCBC;
+ color: #B30D0D;
+ 
+ font-weight: 800;
+ font-family: 'Oswald', sans-serif;
+}
+#adicionar{
+ text-align: center;
+ background: #B30D0D;
+}
+#enviar{
+  background: #B30D0D;
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+}
+#input-publicar{
+  border-color: #BDBCBC;
+}

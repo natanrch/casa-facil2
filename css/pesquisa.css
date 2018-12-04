@@ -1,0 +1,109 @@
+body{
+ background-color: rgb(212, 212, 212);
+
+}
+#pesquisa-titulo-busca{
+	background: #fff;
+
+}
+#pesquisa-titulo-busca{
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+#pesquisa-titulo-busca h2{
+	margin-top: 10px;
+	text-transform: uppercase;
+	
+	color: #275280;
+	font-weight: 400;
+	
+	font-family: 'Oswald', sans-serif;
+	
+}
+#pesquisa-principal{
+background:#EAEAEA ;
+
+}
+#pesquisa-img img{
+	
+	width: 100%;
+}
+#pesquisa-alugar-vender{
+		position: absolute;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	background-color: #A72121;
+	color:#fff ;
+	text-transform: uppercase;
+
+	
+     margin: 6px;
+     top: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+#pesquisa-tipos{
+	position: absolute;
+	font-size: 20px;
+	padding: 8px;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 400;
+     margin: 6px;
+	font-family: 'Oswald', sans-serif;
+
+}
+#pesquisa-preco{
+	float: right;
+	font-size: 18px;
+	color: transparent;
+	color: #585454;
+	font-family: 'Oswald', sans-serif;
+display: inline;
+	
+}
+#pesquisa-titulo{
+	display: inline;
+
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #275280;
+	
+	
+	font-family: 'Oswald', sans-ser
+}
+#pesquisa-card-infomacao{
+	border-radius: 0px;
+	border:0px;
+}
+#img{
+	width: 100%;
+	height: 203px;
+}
+
+#iconi-casa{
+	
+	display: inline;
+	margin-top: 10px;
+	
+}
+#iconi-tamanho{
+	font-size: 18px;
+
+	text-align: center;
+	color: transparent;
+	color: #999393;
+}
+#macapa-ap{
+margin: 0;
+	font-weight: 200;
+	color: transparent;
+	color: #ccc;
+
+
+	font-family: 'Oswald', sans-serif;
+}
+

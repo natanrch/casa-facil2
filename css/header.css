@@ -1,0 +1,144 @@
+
+/*pesquis*/
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: rgb(212, 212, 212);
+}
+#menu  ul {
+
+	
+	border:0;
+	border-radius: 0;
+	
+
+}
+#menu-sub:hover{
+	background: #E2DEDE;
+}
+#txtbusca {
+	border:0px solid #222;
+	background:#EEE;
+	width:260px;
+	height:50px;
+	margin:0 auto;
+	font-style:oblique;
+font-family: 'Roboto', sans-serif;
+	padding:5px 0 5px 5px;
+	float:left; // posição do campo
+	line-height:36px; // altura da linha
+}
+#btnBusca {
+
+	background:#C8C5C5;
+	/*position:relative;*/
+	border:0px solid #222;
+	color:#FFF; 
+	margin:0 auto;
+	padding:10px;
+	border:0 none;
+	width:70px;
+	height: 50px;
+
+}
+#btnBusca:hover {
+	background:#99cccc; 
+}
+
+#header{
+	background: #221F1F;
+	height: 50px;
+}
+#header ul{
+	margin-top: 5px;	
+}
+#header ul li {
+	display: inline;
+	text-decoration: none;
+}
+
+#header ul li a{
+
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 500;
+	color: #fff;
+	
+	padding-left: 10PX;
+
+
+}
+
+#header ul li #whatsapp {
+	font-size: 20px;
+	display: inline-block;
+	/*background: #333;*/
+	color: #6FEF6B;
+	line-height: 1;
+	padding: 8px 0;
+	margin-left: 10px;
+
+	text-align: center;
+
+	transition: 0.3s;
+}
+#facebook {
+	font-size: 18px;
+	display: inline-block;
+	/*background: #333;*/
+
+	line-height: 1;
+	padding: 8px 0;
+
+
+	text-align: center;
+
+	transition: 0.3s;
+}
+#instagram{
+	font-size: 18px;
+
+	display: inline-block;
+	/*background: #333;*/
+
+	line-height: 1;
+	padding: 8px 0;
+
+font-weight: 600;
+	text-align: center;
+
+	transition: 0.3s;
+}
+.fa-facebook-f{
+	color:  #fff;
+}
+.fa-instagram{
+	color: #C93075; 
+}
+#login-usuario{
+	color: #fff;
+	background: #6E6C6C;
+
+	padding-top: 5px;
+	padding-bottom: 21px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 10px;
+
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 800;
+	/*font-style: italic;*/
+	font-family: 'Oswald', sans-serif;
+}
+#login-usuario img{
+	height: 20px;
+	width: 20px;
+}
+.nav{
+	
+	background:#911111;
+	margin: 0;
+}
+

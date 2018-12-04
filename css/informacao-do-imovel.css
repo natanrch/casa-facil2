@@ -1,0 +1,110 @@
+
+#tituloimovel{
+	margin-top: 20px;
+	text-transform: uppercase;
+	
+	color: #275280;
+	font-weight: 500;
+	/*font-style: italic;*/
+	font-family: 'Oswald', sans-ser;
+	
+}
+#principal{
+	margin: 5px auto;
+}
+#preco-imovel{
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 300;
+	color: transparent;
+	color: #999393;
+	margin: 0;
+
+}
+#preco-valor{
+
+	font-size: 20px;
+	color: transparent;
+	color: #585454;
+	font-family: 'Oswald', sans-serif;
+
+}
+#preco,#iconi{
+	display: inline;
+
+}
+#preco {
+
+	font-size: 18px;
+	color: transparent;
+	color: #585454;
+	font-family: 'Oswald', sans-serif;
+
+}
+#iconi{
+
+	float: right;
+
+}
+#iconi-texto{
+font-family: arial;
+margin-right: 10px;
+}
+#iconi-tamanho{
+	font-size: 18px;
+	text-align: center;
+	color: transparent;
+	color: #999393;
+}
+#iconi-casa{
+	float: right;
+	display: inline;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#vendo{
+	border-top: 3px solid #B30D0D;
+	background-color: #fff;
+	border-bottom: 1px solid #DBDBDB;
+}
+#informacoes{
+	background: #F0EFEF;
+}
+#texto-iformacao td{
+font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 300;
+}
+#texto-iformacao th{
+font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 500;	
+}
+#descricao-texto{
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 300;
+}
+#informacoes h1{
+	/*color: #B30D0D;*/
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#informacoes-redes-sociasis{
+border-top: 1px solid #DBDBDB;
+}
+#empresora img{
+	height: 25px;
+}
+#empresora a{
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-weight: 300;
+ text-decoration: none;
+ margin-left: 10px;
+ color: #766F6F;
+}
