@@ -49,6 +49,28 @@
   height: 36px;
   transition: 0.3s;
 }
+#Localizacao{
+  text-align: justify;
+}
+#Localizacao h6{
+  line-height: 2;
+}
+#Localizacao h5{
+color:#fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+#Localizacao h6{
+/*border-bottom: 1px solid #333;*/
+  padding: 10px 0;
+font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+  
+}
+#localizacao-linha{
+border:1px solid #bb0000;
+}
 #footer .footer-top .social-links #whatsapp{
   background: #6FEF6B;
 }
