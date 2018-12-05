@@ -28,7 +28,6 @@
  <link href="css/slide.css" rel="stylesheet">
  <link href="css/footer.css" rel="stylesheet">
 
-
  <head>
  <body>
   <header>
@@ -81,7 +80,7 @@
             <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?tipo=apartamento">Apartamento</a></li>
             <li> <a id="menu-sub"  class="dropdown-item" href="pesquisa.php?tipo=terreno">Terrenos</a></li>
 
-            <li> <a id="menu-sub"  class="dropdown-item" href="#">Casas</a></li>
+            <li> <a id="menu-sub"  class="dropdown-item" href="pesquisa.php?tipo=rural ">Área rural</a></li>
           </ul>
         </li>
         <li id="menu" class="nav-item dropdown">
@@ -89,10 +88,10 @@
             <span id="menu-pesquisa3">Bairros</span> 
           </a>
           <ul  class="dropdown-menu" aria-labelledby="navbarDropdown"  >
-            <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?tipo=buritizal ">burritizal</a></li>
-            <li> <a id="menu-sub"  class="dropdown-item" href="beirol">beirol</a></li>
+            <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?busca=buritizal ">burritizal</a></li>
+            <li> <a id="menu-sub"  class="dropdown-item" href="pesquisa.php?busca=beirol ">beirol</a></li>
 
-            <li> <a id="menu-sub"  class="dropdown-item" href="#">universidade</a></li>
+            <li> <a id="menu-sub"  class="dropdown-item" href="pesquisa.php?busca=universidade ">universidade</a></li>
           </ul>
         </li>
         

@@ -20,10 +20,10 @@ criaCabecalho('Informações', array('css/informacao-do-imovel.css'));
 
 
 					<div class="carousel-item active">
-						<img class="d-block w-100" style="height: 400px"  src="<?= $imovel->getImagem() ?>" alt="First slide">
+<img class="d-block w-100" height="400"  src="img/<?= $imovel->getImagem() ?>" alt="First slide">
 					</div>
 					<div class="carousel-item ">
-						<img class="d-block w-100" style="height: 400px"  src="<?= $imovel->getImagem() ?>" alt="First slide">
+						<img class="d-block w-100" height="400"  src="img/<?= $imovel->getImagem() ?>" alt="First slide">
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -37,21 +37,21 @@ criaCabecalho('Informações', array('css/informacao-do-imovel.css'));
 				</div>
 			</div>
 			
-		</div>
+		
 		<div id="informacoes" class="col-lg-6 mb-6 mt-4 mb-2" >
 			<div class="row">
 				<div id="vendo"  class="col-lg-12 mb-12">
 					
                      <div id="iconi-casa">
               <div id="iconi-tamanho" class="fa fa-bed" aria-hidden="true">
-                <span id="iconi-texto">1</span>
+                <span id="iconi-texto"><?=$imovel->getQuartos()?></span>
               </div>
-              <div id="iconi-tamanho" class="fa fa-bath"><span id="iconi-texto">1</span></div>
-               <div id="iconi-tamanho" class="fa fa-car" aria-hidden="true"><span id="iconi-texto">1</span></div>
+              <div id="iconi-tamanho" class="fa fa-bath"><span id="iconi-texto"><?=$imovel->getBanheiros() ?></span></div>
+               <div id="iconi-tamanho" class="fa fa-car" aria-hidden="true"><span id="iconi-texto"><?=$imovel->getGaragem() ?></span></div>
                 </div>
 					<p id="preco-imovel">Vendo por:</p>
 				    <p id="preco-valor">
-				    	500.000,00
+				    	<?=$imovel->getValor() ?>
 				    </p>
 				
 				
@@ -122,6 +122,7 @@ criaCabecalho('Informações', array('css/informacao-do-imovel.css'));
 			</div>
 		</div>
 	</div>
+
 
 </article>
 <footer>
