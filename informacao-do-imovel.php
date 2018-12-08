@@ -51,7 +51,11 @@ criaCabecalho('Informações', array('css/informacao-do-imovel.css'));
                 </div>
 					<p id="preco-imovel">Vendo por:</p>
 				    <p id="preco-valor">
-				    	<?=$imovel->getValor() ?>
+
+				    	<?=
+                       number_format($imovel->getValor() , 2, ',', '.')
+				    	?>
+
 				    </p>
 				
 				

@@ -72,8 +72,8 @@ criaCabecalho('pesquisa', array('css/pesquisa.css'));
 									</div>
 									<div id="pesquisa-preco" >R$:
 										<?=
-										$num = $l['valor'];
-										$preco=  number_format($num, 2, ',', '.');
+										
+									 number_format($l['valor'], 2, ',', '.');
 										?>
 									</div>
 									<div id="macapa-ap">Macapá-AP</div>

@@ -46,14 +46,7 @@ foreach ($lista as $l):
      <span id="preco">
 R$
       <?=
-
-      $num = $l['valor'];
-     $preco=  number_format($num, 2, ',', '.');
-
-
-
-
-
+ number_format($l['valor'], 2, ',', '.');
        ?>
     </span>
     <div id="iconi">
