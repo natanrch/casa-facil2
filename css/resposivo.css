@@ -526,5 +526,31 @@ margin-right: 10px;
 	font-family: 'Oswald', sans-serif;
 
 }
+/*footer*/
+#macapa-ap{
+	display: block;
+	font-weight: 200;
+	color: transparent;
+	color: #ccc;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+}
+#pesquisa-titulo{
+	
 
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #275280;
+	font-family: 'Oswald', sans-ser
+}
+#pesquisa-preco{
+	float: left;
+	font-size: 18px;
+	color: transparent;
+	color: #585454;
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+/*fim footer*/
 }

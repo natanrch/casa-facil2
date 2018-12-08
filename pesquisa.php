@@ -69,14 +69,16 @@ criaCabecalho('pesquisa', array('css/pesquisa.css'));
 								<div class="card-header" >
 									<div  id="pesquisa-titulo">
 										<?= $l['titulo'] ?>
+
 									</div>
+									<div  id="macapa-ap">Macapá-AP</div>
 									<div id="pesquisa-preco" >R$:
 										<?=
 										
-									 number_format($l['valor'], 2, ',', '.');
+								 number_format($l['valor'], 2, ',', '.');
 										?>
 									</div>
-									<div id="macapa-ap">Macapá-AP</div>
+									
 								</div>
 								<div class="card-body">
 									<div id="iconi-casa">

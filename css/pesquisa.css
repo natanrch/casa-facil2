@@ -1,5 +1,5 @@
 body{
- background-color: rgb(212, 212, 212);
+	background-color: rgb(212, 212, 212);
 
 }
 #pesquisa-titulo-busca{
@@ -21,7 +21,7 @@ body{
 	
 }
 #pesquisa-principal{
-background:#EAEAEA ;
+	background:#EAEAEA ;
 
 }
 #pesquisa-img img{
@@ -29,7 +29,7 @@ background:#EAEAEA ;
 	width: 100%;
 }
 #pesquisa-alugar-vender{
-		position: absolute;
+	position: absolute;
 	font-size: 15px;
 	padding: 5px;
 	text-align: center;
@@ -38,8 +38,8 @@ background:#EAEAEA ;
 	text-transform: uppercase;
 
 	
-     margin: 6px;
-     top: 50px;
+	margin: 6px;
+	top: 50px;
 	font-family: 'Oswald', sans-serif;
 }
 #pesquisa-tipos{
@@ -52,7 +52,7 @@ background:#EAEAEA ;
 	text-transform: capitalize;
 	font-size: 18px;
 	font-weight: 400;
-     margin: 6px;
+	margin: 6px;
 	font-family: 'Oswald', sans-serif;
 
 }
@@ -62,7 +62,7 @@ background:#EAEAEA ;
 	color: transparent;
 	color: #585454;
 	font-family: 'Oswald', sans-serif;
-display: inline;
+	display: inline;
 	
 }
 #pesquisa-titulo{
@@ -98,12 +98,12 @@ display: inline;
 	color: #999393;
 }
 #macapa-ap{
-margin: 0;
+	margin-left: 20px;
 	font-weight: 200;
 	color: transparent;
 	color: #ccc;
 
-
+	display: inline;
 	font-family: 'Oswald', sans-serif;
 }
 

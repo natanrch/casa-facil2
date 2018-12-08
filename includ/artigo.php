@@ -38,7 +38,9 @@ foreach ($lista as $l):
     <div class="card-body">
 
       <div class="card-text">
+         <a href="informacao-do-imovel.php?id=<?= $l['id'] ?>"  >
        <span id="titulo-imovel"> <?= $l['titulo'] ?><br></span>
+     </a>
        <div id="macapa-ap">Macapá-AP</div>
      </div>
    </div>

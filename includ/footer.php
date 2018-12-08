@@ -20,18 +20,18 @@
             <li> <a href="#">Home</a></li>
             <li> <a href="#">produto</a></li>
             <li> <a href="#">Services</a></li>
-            <li> <a href="#">cadastre-se</a></li>
+            <li> <a href="cadastro-cliente-login.php">cadastre-se</a></li>
             <li><a href="#">pergutas frequentes</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Mais imóveis </h4>
           <ul>
-            <li> <a href="#">Casas</a></li>
-            <li> <a href="#">Apartamentos</a></li>
-            <li> <a href="#">Kit net</a></li>
-            <li> <a href="#">Terrenos</a></li>
-            <li><a href="#">Em condominios</a></li>
+            <li> <a href="pesquisa.php?tipo=casa">Casas</a></li>
+            <li> <a href="pesquisa.php?tipo=apartamento">Apartamentos</a></li>
+            <li> <a href="pesquisa.php?tipo=kit-net">Kit net</a></li>
+            <li> <a href="pesquisa.php?tipo=terreno">Terrenos</a></li>
+            <li><a href="pesquisa.php?tipo=condominios">Em condominios</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 footer-contact">
