@@ -29,9 +29,7 @@
 		
 		height: 100px;
 	}
-	#pesquisa-unput{
-		
-	}
+	
 	#home{
 		margin-left: 40px;
 		display: flex;
@@ -43,8 +41,8 @@
 	
 	#menu-pesquisa1:hover{
 		background: rgba(2, 1, 6, 0.5); 
-		padding-top: 34px;
-		padding-bottom: 41px;
+		padding-top: 38px;
+		padding-bottom: 38px;
 		border: 0px;
 
 	}
@@ -63,13 +61,23 @@
 	}
 
 	#drop_menu li:hover ul {
-		border:0;
+		box-shadow: 1px 1px 1px 0px #ccc;
 		display:block;
 		border-radius: 0;
 		background:#FFF6FC;
 		margin: 0px;
 	}
+	.dropdown{
+		height: 100px;
+		
+	}
 	
+	.dropdown-toggle,.active{
+		margin-top: 30px;
+	}
+	#pesquisa-unput{
+		margin-top: 25px;
+	}
 
 	#menu:hover {
 	

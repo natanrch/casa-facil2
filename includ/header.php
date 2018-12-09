@@ -73,11 +73,11 @@
         </li>
         <li id="menu" class="nav-item dropdown">
           <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
-            <span id="menu-pesquisa3">Tipos</span> 
+            <span id="menu-pesquisa3">Tipos Imóveis</span> 
           </a>
           <ul  class="dropdown-menu" aria-labelledby="navbarDropdown" id="hover" >
-            <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?tipo=casa">casa</a></li>
-            <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?tipo=apartamento">Apartamento</a></li>
+            <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?tipo=apartamento"> Apartamento</a></li>
+            <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?tipo=casa">Casa</a></li>
             <li> <a id="menu-sub"  class="dropdown-item" href="pesquisa.php?tipo=terreno">Terrenos</a></li>
 
             <li> <a id="menu-sub"  class="dropdown-item" href="pesquisa.php?tipo=rural ">Área rural</a></li>
@@ -85,7 +85,7 @@
         </li>
         <li id="menu" class="nav-item dropdown">
           <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
-            <span id="menu-pesquisa3">Bairros</span> 
+            <span id="menu-pesquisa3">Imóveis Bairros</span> 
           </a>
           <ul  class="dropdown-menu" aria-labelledby="navbarDropdown"  >
             <li  > <a id="menu-sub"   class="dropdown-item" href="pesquisa.php?busca=buritizal ">burritizal</a></li>
