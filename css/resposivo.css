@@ -11,6 +11,9 @@
 	#header ul{
 		margin-right: 60px;
 	}
+	#local{
+		margin-right: 70px;
+	}
 	#header ul li a{
 
 		font-family: 'Roboto', sans-serif;
@@ -21,8 +24,9 @@
 	}
 
 	#logo{
-		margin-left: 50px;
-		margin-bottom: 40px;
+		position: relative;
+		left: 30px;
+	bottom: 10px;
 	}
 
 	.nav{
@@ -31,14 +35,19 @@
 	}
 	
 	#home{
-		margin-left: 40px;
+		margin-left:60px;
 		display: flex;
 		box-sizing: border-box;
 		justify-content:space-between; 
-		width: 90%;
+		width: 100%;
+		
+	
+
 	}
 
-	
+	#drop_menu{
+		margin-left: 60px;
+	}
 	#menu-pesquisa1:hover{
 		background: rgba(2, 1, 6, 0.5); 
 		padding-top: 38px;
@@ -77,6 +86,9 @@
 	}
 	#pesquisa-unput{
 		margin-top: 25px;
+       margin-right: 60px;
+       display: flex;
+
 	}
 
 	#menu:hover {
@@ -228,7 +240,7 @@
 	}
 	#btnBusca {
 
-		background:#00cccc;
+		background:#C8C5C5;
 		/*position:relative;*/
 		border:0px solid #222;
 		color:#FFF; 
@@ -502,7 +514,7 @@
 	}
 	#btnBusca {
 
-		background:#00cccc;
+			background:#C8C5C5;
 		/*position:relative;*/
 		border:0px solid #222;
 		color:#FFF; 

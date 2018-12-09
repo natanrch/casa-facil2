@@ -36,6 +36,8 @@
     
     
     <div id="header" class="col-lg-12 mb-12">
+      
+    
       <ul >
         <li><a id="local"  href="">Macapá-AP</a></li>
       </ul>
@@ -68,9 +70,7 @@
   <div   class="collapse navbar-collapse" id="navbarSupportedContent" >
     <div id="home">
       <ul id="drop_menu"  class="navbar-nav " >
-        <li class="nav-item active" >
-          <a class="nav-link"  href="#"> <span  id="menu-pesquisa1">Lançamentos</span>  </a>
-        </li>
+        
         <li id="menu" class="nav-item dropdown">
           <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
             <span id="menu-pesquisa3">Tipos Imóveis</span> 

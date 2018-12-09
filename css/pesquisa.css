@@ -92,7 +92,6 @@ body{
 }
 #iconi-tamanho{
 	font-size: 18px;
-
 	text-align: center;
 	color: transparent;
 	color: #999393;
@@ -102,7 +101,6 @@ body{
 	font-weight: 200;
 	color: transparent;
 	color: #ccc;
-
 	display: inline;
 	font-family: 'Oswald', sans-serif;
 }
