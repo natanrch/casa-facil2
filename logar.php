@@ -15,8 +15,9 @@ $usuario = new Usuario();
 
 $usuario->logar($email);
 
-if ($email == $usuario->email && $senha == $usuario->senha) {
+if ($email == $usuario->getEmail() && $senha == $usuario->getSenha()) {
 	$_SESSION['email'] = $email;
+	$_SESSION['usuario'] = $usuario->getNome();
 	header("Location: publicar-imovel.php");
 } else {
 	session_destroy();
@@ -24,12 +25,12 @@ if ($email == $usuario->email && $senha == $usuario->senha) {
 	
 }
 
-// function estaLogado() {
-// 	return isset($_SESSION['email']);
-// }
+function estaLogado() {
+	return isset($_SESSION['email']);
+}
 
-// function verificaUsuario() {
-// 	if(!estaLogado()) {
-// 		header("Location: login.php");
-// 	}
-// }
+function verificaUsuario() {
+	if(!estaLogado()) {
+		header("Location: login.php");
+	}
+}

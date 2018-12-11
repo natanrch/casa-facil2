@@ -15,4 +15,5 @@ $usuario->setSenha($_POST['senha_cad']);
 var_dump($usuario);
 
 $usuario->inserir();
+
 header("Location: index.php");

@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+   session_start();
+?>
 <html lang="pt-br">
  <meta charset="utf-8">
 </head>
@@ -53,7 +56,15 @@
         </li>
         <li><a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a></li>
         <li>  <a href="#" id="instagram"><i class="fab fa-instagram"></i></a></li>
+        <?php if(isset($_SESSION['usuario'])) { ?>
+          <li id="login-usuario"><a href="cadastro-cliente-login.php"><span><img id="login-iconi" src="svg/person.svg" alt="icon chave"><?= $_SESSION['usuario'] ?></span></a></li> <a href="logout.php" class="btn btn-danger">Logout</a><a href="publicar-imovel.php" class="btn btn-success">Publicar imóvel</a>
+        <?php 
+        } else {
+         ?> 
         <li id="login-usuario"><a href="cadastro-cliente-login.php"><span><img id="login-iconi" src="svg/person.svg" alt="icon chave">login</span></a></li>
+        <?php
+        }
+        ?>
       </ul>
       
     </div>

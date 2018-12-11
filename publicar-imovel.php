@@ -2,7 +2,7 @@
     require_once 'cria-cabecalho.php';
 
    criaCabecalho('publicar-imovel', array('css/publicar-imovel.css'));
-
+   
  ?>
 
 <article >
@@ -119,38 +119,10 @@
                     </div>
                     <div class="btn btn-o btn-default btn-file"> <i class="glyphicon glyphicon-folder-open"></i>Adicionar Imagens <input class="file" multiple="" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-o btn-default" data-browse-label="Browse Images" id="1520140310030" type="file" name="imagem"></div>
                   </div>
-                  <p class="help-block">Você pode selecionar várias imagens</p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-12 col-lg-4">
-                <div class="form-group">
-                  <label>Itens do Imóvel</label>
-                  <!--<div class="checkbox custom-checkbox"><label><input type="checkbox"><span class=""></span> Garagem</label></div>-->
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Sistema de segurança</label></div>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Ar condicionado</label></div>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Varanda</label></div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-4">
-                <div class="form-group">
-                  <label></label>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Poço artesiano</label></div>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Internet</label></div>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Piscina</label></div>
-                  <!--<div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> TV à Cabo</label></div>-->
-                </div>
-              </div>
-              <div class="col-sm-12 col-lg-4">
-                <div class="form-group">
-                  <label></label>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Jardim</label></div>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Cerca elétrica</label></div>
-                  <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> Lage</label></div>
-                </div>
-              </div>
-            </div>
+           
             <div class="form-group " id="adicionar">
               <!-- <input type="submit" name="enviar" class="btn btn-primary"> -->
               <button id="enviar"  name="enviar" type="submit" class="btn  btn-lg" ">Enviar</button>

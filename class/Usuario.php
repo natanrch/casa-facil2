@@ -3,10 +3,10 @@
 require_once 'class/Conexao.php';
 
 class Usuario{
-	public  $id;
-	public   $nome;
-	public  $email;
-	public $senha;
+	private  $id;
+	private   $nome;
+	private  $email;
+	private $senha;
 
 	public function logar($email)
 	{
