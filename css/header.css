@@ -45,13 +45,27 @@ font-family: 'Roboto', sans-serif;
 #btnBusca:hover {
 	background:#99cccc; 
 }
+#logout,#pulicar-btn{
+	border-radius: 0px;
+	margin-top: 7px;
+}
+#logout{
+	background:#911111;
+	color: #fff;
+	text-transform: uppercase;
 
+}
+#pulicar-btn{
+	background: #275280;
+	color: #fff;
+	text-transform: uppercase;
+}
 #header{
 	background: #221F1F;
 	height: 50px;
 }
 #header ul{
-	margin-top: 5px;	
+	margin-top: 8px;	
 }
 #header ul li {
 	display: inline;
@@ -104,7 +118,7 @@ font-family: 'Roboto', sans-serif;
 
 	line-height: 1;
 	padding: 8px 0;
-
+margin-right: 10px;
 font-weight: 600;
 	text-align: center;
 
@@ -124,7 +138,7 @@ font-weight: 600;
 	padding-bottom: 21px;
 	padding-left: 5px;
 	padding-right: 5px;
-	margin-left: 10px;
+	
 
 	text-transform: uppercase;
 	font-size: 16px;

@@ -30,6 +30,7 @@
  <link href="css/resposivo.css" rel="stylesheet">
  <link href="css/slide.css" rel="stylesheet">
  <link href="css/footer.css" rel="stylesheet">
+ 
 
  <head>
  <body>
@@ -41,9 +42,7 @@
     <div id="header" class="col-lg-12 mb-12">
       
     
-      <ul >
-        <li><a id="local"  href="">Macapá-AP</a></li>
-      </ul>
+      
       <ul>
         
 
@@ -57,7 +56,10 @@
         <li><a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a></li>
         <li>  <a href="#" id="instagram"><i class="fab fa-instagram"></i></a></li>
         <?php if(isset($_SESSION['usuario'])) { ?>
-          <li id="login-usuario"><a href="cadastro-cliente-login.php"><span><img id="login-iconi" src="svg/person.svg" alt="icon chave"><?= $_SESSION['usuario'] ?></span></a></li> <a href="logout.php" class="btn btn-danger">Logout</a><a href="publicar-imovel.php" class="btn btn-success">Publicar imóvel</a>
+           
+          <a href="logout.php" class="btn " id="logout">Logout</a>
+          <a href="publicar-imovel.php" class="btn" id="pulicar-btn">Publicar imóvel</a>
+          <li id="login-usuario"><a  href="cadastro-cliente-login.php"><span><img id="login-iconi" src="svg/person.svg" alt="icon chave"><?= $_SESSION['usuario'] ?></span></a></li>
         <?php 
         } else {
          ?> 
